@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "ddp": "^0.12.0",
-    "ddp-login": "^1.0.10"
+    "ddp-login": "^1.0.10",
+    "electron-positioner": "^2.0.3"
   }
 }

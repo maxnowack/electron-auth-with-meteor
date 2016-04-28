@@ -35,6 +35,7 @@ ddp.connect(function(err) {
     login.loginWithToken(ddp, token, function (err, userInfo) {
       if (err) throw err;
       console.log('got userinfo from meteor', userInfo);
+      document.getElementById('head').innerHTML = userInfo.id;
     });
   })
 })
