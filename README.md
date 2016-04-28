@@ -2,8 +2,6 @@ Example electron app, to show how to authenticate in a window and send the meteo
 
 
 
-entry point: `main.js`
-
-the control window: `control.html`
-
-the login window: `app.html`
+* entry point: `main.js`
+* the control window: `control.html`
+* the login window: `app.html`
