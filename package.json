@@ -1,0 +1,18 @@
+{
+  "name": "electron-auth-with-meteor",
+  "version": "0.0.0",
+  "description": "Example electron app, to show how to authenticate in a window and send the meteor login token to another window",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron -i ./main.js",
+    "build": "electron-packager ./ ElectronTest --platform=darwin --arch=x64 --out ./build/"
+  },
+  "author": "Max Nowack <max@unsou.de>",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.0"
+  },
+  "dependencies": {
+    "ddp": "^0.12.0",
+    "ddp-login": "^1.0.10"
+  }
+}
