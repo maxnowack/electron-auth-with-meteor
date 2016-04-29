@@ -22,13 +22,14 @@ app.on('window-all-closed', function() {
 // initialization and is ready to create browser windows.
 app.on('ready', function() {
   mainWindow = new BrowserWindow({
-    width: 275,
-    height: 500,
+    useContentSize: true,
     show: false,
     resizable: false,
     transparent: true,
     frame: false,
+    alwaysOnTop: true,
   });
+  mainWindow.setVisibleOnAllWorkspaces(true)
   mainWindow.loadURL('file://' + __dirname + '/control.html');
   // mainWindow.webContents.openDevTools();
   mainWindow.webContents.on('dom-ready', function() {
