@@ -9,11 +9,11 @@
   },
   "author": "Max Nowack <max@unsou.de>",
   "devDependencies": {
-    "electron-prebuilt": "^0.37.0"
+    "electron-prebuilt": "^1.4.5"
   },
   "dependencies": {
     "ddp": "^0.12.0",
     "ddp-login": "^1.0.10",
-    "electron-positioner": "^2.0.3"
+    "electron-positioner": "^3.0.0"
   }
 }
